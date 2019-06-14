@@ -33,12 +33,12 @@ function createSplashScreen(){
 }
 
 function createWindow(){
-  console.log("Coucou")
-  win = new BrowserWindow({width:1280, height:720, icon:__dirname+'/Images/Icons/icon.png', frame:true, fullscreen:true, show: false})
+  win = new BrowserWindow({width:1280, height:720, icon:__dirname+'/Images/Icons/icon.png', frame:true, fullscreen:false, show: false, webSecurity: false, webPreferences:{nodeIntegration: true}})
   //win.setMenuBarVisibility(false)
   //win.setProgressBar(0.5)
   //win.maximize()
-  win.setIgnoreMouseEvents(false)
+  win.setIgnoreMouseEvents(false);
+  win.setMenuBarVisibility(false);
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'html/home.html'),
     //pathname: path.join(__dirname, 'editor.html'),
@@ -56,12 +56,14 @@ function createWindow(){
   });
 }
 
-app.on('ready', createSplashScreen)
-
+//app.on('ready', createSplashScreen)
+app.on('ready', createWindow)
+/*
 setTimeout(function(){
   createWindow()
   splashScreen.close()
-},-100000);
+},5000);
+*/
 
 app.on('window-all-closed', () => {
   if(process.platform !== 'darwin'){

@@ -1,0 +1,16 @@
+{
+  "texts": {
+    "LBDV": {
+      "name": "Le bal des voleurs",
+      "ref": "0001",
+      "path": "LBDV/text.txt",
+      "audioPath": "LBDV/audio/"
+    },
+    "PNFERNR": {
+      "name": "Pactolle, nuit folle et rock'n roll",
+      "ref": "0003",
+      "path": "PNFERNR/text.txt",
+      "audioPath": "PNFERNR/audio/"
+    }
+  }
+}

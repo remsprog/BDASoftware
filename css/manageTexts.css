@@ -12,13 +12,27 @@ body
 
 .block
 {
-  margin: 5px;
-  padding: 10px;
-  background-color: #8e44ad;
-  transition: 0.2s;
+  margin: 20px;
+  padding: 30px;
+  background-color: #FF8A00;
+  transition: background-color 0.4s;
 }
 
 .block:hover
 {
-  background-color: black;
+  background-color: #E8610C;
 }
+
+
+#checkUpdates
+{
+  background-color: #FF8A00;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  transition: background-color 0.4s;
+}
+
+#checkUpdates:hover
+{
+  background-color: #E8610C;

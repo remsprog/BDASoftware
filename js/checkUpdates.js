@@ -27,7 +27,7 @@ retourHttp.on('error', function(e){
 
 //console.log(reponse);
 
-fs.readFile('../ressources/Data/data.json', (err, data) => {
+fs.readFile('../data.json', (err, data) => {
   if (err) throw err;
   localVersion = JSON.parse(data);
   nbrFilesSync+=1;
@@ -49,8 +49,6 @@ function compareFiles(){
     }
     else{
       if(serverVersion.version<localVersion.version){
-        console.log(serverVersion.version);
-        console.log(localVersion.version);
         console.log("il y a un problème!");
       }
       else{

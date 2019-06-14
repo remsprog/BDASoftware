@@ -1,0 +1,179 @@
+body
+{
+  background-color: #212121;
+}
+
+#menuBar
+{
+  display: flex;
+  background-color: pink;
+}
+
+.menuIcon
+{
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  height: 64px;
+  width: 20%;
+  background-color: #FF8A00;
+  transition: 0.2s;
+}
+
+.menuIcon:hover
+{
+  background-color: #E8610C;
+}
+
+.menuIcon:active
+{
+  background-color: #FF470D;
+}
+
+.imgIcon
+{
+  background-image: url("../ressources/images/returnToHome.svg");
+  background-size: 64px 64px;
+}
+
+/* Style the navigation bar */
+.navbar {
+ width: 100%;
+ background-color: #121212;
+ overflow: auto;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+}
+
+/* Navbar links */
+.navbar a {
+  transition: background-color 0.2s;
+ float: left;
+ text-align: center;
+ padding: 1%;
+ width: 15%;
+ color: white;
+ background-color: #FF8A00;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ background-color: #E8610C;
+}
+
+.navbar a:active {
+ background-color: #FF470D;
+}
+
+
+#playground
+{
+  background-color: #212121;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+#playground .replique
+{
+  display: flex;
+  margin: 1%;
+}
+
+#playground .replique .narrateur
+{
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  background-color: #0ABF93;
+  text-align: center;
+}
+
+#playground .replique .mesNoms
+{
+  background-color: #FFC30D;
+  width: 10%;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#playground .replique .autresNoms
+{
+  background-color: #007DB3;
+  width: 10%;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#playground .replique .mesRepliques
+{
+  background-color: #E89B0C;
+  width: 90%;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#playground .replique .autresRepliques
+{
+  background-color: #004766;
+  width: 90%;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#next
+{
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+/*
+#playground .replique
+{
+  border-radius: 5px;
+  margin: 1%;
+  display: flex;
+}
+
+#playground .replique .nom
+{
+  background-color: #FFC30D;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  width: 10%;
+}
+
+#playground .replique .monPerso
+{
+  background-color: #FFC20D;
+}
+
+#playground .replique .autrePerso
+{
+  background-color: #FFC20D;
+}
+
+
+#playground .replique .texte
+{
+  background-color: #E89B0C;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  width: 100%;
+}
+*/

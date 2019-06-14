@@ -1,0 +1,8 @@
+Eva : Premier dialogue
+John : C'est aussi mon premier dialogue
+Eva : Donc logiquement là c'est mon deuxième dialogue...
+John : Oui, pour moi aussi.
+Eva : Je fais une phrase complexe pour tester les accents. Les mots doux des kiwis de l'ananas du zéphire, ça c'est bon!
+John : euh...
+tous : Bon, au revoir
+narrateur : ils sortent
