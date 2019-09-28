@@ -1,0 +1,29 @@
+{
+  "name": "theatlearn",
+  "version": "1.0.0",
+  "description": "Software which help learning texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=data/Icons/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=ressources/images/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"CryptoApp\"",
+    "package-linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remsprog/BDASoftware.git"
+  },
+  "author": "Remy FAYET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remsprog/BDASoftware/issues"
+  },
+  "homepage": "https://github.com/remsprog/BDASoftware#readme",
+  "dependencies": {
+    "node-wget": "^0.4.3"
+  },
+  "devDependencies": {
+    "electron": "^6.0.1"
+  }
+}
